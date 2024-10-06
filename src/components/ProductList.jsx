@@ -28,8 +28,8 @@ const products = [
     size: '44',
     color: 'verde abacate ',
     images: [
-      'Vestidos/anne.jpg',
-      'Vestidos/anne.jpg',
+      'Vestidos/Anne.jpg',
+      'Vestidos/Anne.jpg',
     ]
   },
   {
