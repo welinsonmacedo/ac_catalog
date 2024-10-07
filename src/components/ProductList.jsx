@@ -357,11 +357,51 @@ const products = [
     size: '38',
     color: 'Verde',
     images: [
-      'Blusas/rafa.png',
+      'Camisas/rafa.png',
       
    
     ]
   },
+  {
+    id: 1,
+    name: 'Camisa Rafa',
+    price: '629,99',
+    priceDesc:' 374,99',
+    size: '38',
+    color: 'cinza',
+    images: [
+      'Camisas/rafac.png',
+      'Camisas/rafac2.png',
+      
+   
+    ]
+  },
+  {
+    id: 1,
+    name: 'Blusa Zoe',
+    price: '214,99 ',
+    priceDesc:' 128,99',
+    size: '38,40',
+    color: 'roxa',
+    images: [
+      'Blusas/zoe.png',
+      'Blusas/zoe2.png',
+      'Blusas/zoe3.png',
+    ]
+  },
+  {
+    id: 1,
+    name: 'Blusa Zoe',
+    price: '214,99 ',
+    priceDesc:' 128,99',
+    size: '38,40',
+    color: 'preto',
+    images: [
+      'Blusas/zoep.png',
+    
+    ]
+  },
+ 
  
  
 ];
