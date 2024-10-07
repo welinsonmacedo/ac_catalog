@@ -192,14 +192,18 @@ function ProductCard({ product }) {
   };
 
   const handleBuy = () => {
-    const message = `Olá! Gostaria de comprar o vestido: ${product.name}. \nValor: R$ ${product.priceDesc}. \nLink da imagem: ${product.images[currentImageIndex]}`;
+    const message = `Olá! Gostaria de comprar o vestido: 
+    \nNome: ${product.name} 
+    \nPreço: R$ ${product.priceDesc} 
+    \nCor: ${product.color} 
+    \nTamanho: ${product.size}`;
 
     // Substitua '5511998765432' pelo seu número de WhatsApp
     const yourWhatsAppNumber = '5534996717951';
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${yourWhatsAppNumber}&text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, '_blank');
-  };
+};
 
   return (
     <>

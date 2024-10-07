@@ -401,7 +401,74 @@ const products = [
     
     ]
   },
- 
+  {
+    id: 1,
+    name: 'Blusa Nathalia ',
+    price: '724,99',
+    priceDesc:' 289,99',
+    size: '38',
+    color: 'verde água',
+    images: [
+      'Blusas/nataliav.png',
+      'Blusas/nataliav2.png',
+    
+    ]
+  },
+  {
+    id: 1,
+    name: 'Blusa Nathalia ',
+    price: '724,99',
+    priceDesc:' 289,99',
+    size: '38',
+    color: 'azul claro',
+    images: [
+      'Blusas/nataliaa2.png',
+      'Blusas/nataliaa3.png',
+    
+    ]
+  },
+  {
+    id: 1,
+    name: 'Blusa Mayra',
+    price: '524,99',
+    priceDesc:' 314,99',
+    size: '40',
+    color: 'terracota',
+    images: [
+      'Blusas/mayrat.png',
+      'Blusas/mayrat2.png',
+      'Blusas/mayrat3.png',
+    
+    ]
+  },
+  {
+    id: 1,
+    name: 'Blusa Nathalia',
+    price: '724,99',
+    priceDesc:' 289,99 ',
+    size: '38',
+    color: 'verde água bordada',
+    images: [
+      'Blusas/nataliavb.png',
+      'Blusas/nataliavb2.png',
+     
+    
+    ]
+  },
+  {
+    id: 1,
+    name: 'Calça Zara',
+    price: '384,99',
+    priceDesc:' 229,99',
+    size: '38',
+    color: 'Laranja',
+    images: [
+      'Calças/zara.png',
+      'Blusas/zara.png',
+     
+    
+    ]
+  },
  
  
 ];
