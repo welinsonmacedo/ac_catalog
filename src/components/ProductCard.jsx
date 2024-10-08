@@ -6,7 +6,10 @@ const Card = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 100%;
+  padding: 15px;
   gap: 20px;
+  background-color: #ffffff;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -38,7 +41,7 @@ const ProductName = styled.h2`
 `;
 
 const ProductPrice = styled.p`
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
   color: #ff0606;
@@ -46,7 +49,7 @@ const ProductPrice = styled.p`
 `;
 
 const ProductPriceDesc = styled.p`
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: 700;
   text-transform: uppercase;
   color: #4CAF50;
@@ -139,7 +142,7 @@ const NavButton = styled.button`
 const BuyButton = styled(NavButton)`
   background-color: #99c9a7;
   margin: 0;
-width: 70%;
+width: 30%;
   &:hover {
     background-color: #0056b3;
   }
@@ -230,8 +233,9 @@ function ProductCard({ product }) {
           <ProductName>{product.name}</ProductName>
           <ProductSize>Tamanho: {product.size}</ProductSize>
           <ProductColor>Cor: {product.color}</ProductColor>
-         <ProductPrice>Preço:  <strike>R$  {product.price}</strike> </ProductPrice>
-          <ProductPriceDesc>Por R$ {product.priceDesc}</ProductPriceDesc>
+          
+         <ProductPrice> <strike>R$  {product.price}</strike> </ProductPrice>
+          <ProductPriceDesc>R$ {product.priceDesc}</ProductPriceDesc>
           <BuyButton onClick={handleBuy}>Comprar</BuyButton>
         </ContainerContent>
       </Card>
