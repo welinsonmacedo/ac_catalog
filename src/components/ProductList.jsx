@@ -7,6 +7,7 @@ flex-direction: column;
 align-items: center;
 justify-content:center;
 padding: 15px;
+padding-bottom: 50px;
 
 `;
 const products = [
