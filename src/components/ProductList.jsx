@@ -5,6 +5,7 @@ const Container= styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
+justify-content:center;
 
 `;
 const products = [
@@ -125,7 +126,7 @@ const products = [
     color: 'verde abacate ',
     images: [
       'Vestidos/lidia.png',
-      'Vestidos/lidia2.png',
+     
       'Vestidos/lidia3.png',
      
     ]
@@ -153,8 +154,7 @@ const products = [
     color: 'verde água ',
     images: [
       'Vestidos/AnneV.png',
-      'Vestidos/AnneV2.png',
-      'Vestidos/AnneV3.png',
+     
       
       
      
@@ -238,7 +238,7 @@ const products = [
     color: 'branca ',
     images: [
       'ChemiseAmara/chemisebranca.png',
-      'ChemiseAmara/chemisebranca2.png',
+    
       
     ]
   },
@@ -251,7 +251,7 @@ const products = [
     color: 'Bege',
     images: [
       'ChemiseAmara/chemisebege.png',
-      'ChemiseAmara/chemisebege2.png',
+
     
     ]
   },
@@ -422,8 +422,10 @@ const products = [
     size: '38',
     color: 'azul claro',
     images: [
+   
+   
       'Blusas/nataliaa2.png',
-      'Blusas/nataliaa3.png',
+      'Blusas/nataliaa3.png', 
     
     ]
   },

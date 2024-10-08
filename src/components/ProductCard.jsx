@@ -10,7 +10,7 @@ const Card = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
 
   }
 `;
@@ -33,28 +33,37 @@ const ContainerContent = styled.div`
 
 const ProductName = styled.h2`
   font-size: 1.5em;
-  color: #333;
+  text-transform: uppercase;
+  color: #000000;
 `;
 
 const ProductPrice = styled.p`
   font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
   color: #ff0606;
-  text-decoration: underline;
+  
 `;
 
 const ProductPriceDesc = styled.p`
   font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
   color: #4CAF50;
 `;
 
 const ProductSize = styled.p`
   font-size: 1em;
-  color: #555;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #070404;
 `;
 
 const ProductColor = styled.p`
   font-size: 1em;
-  color: #888;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
 `;
 
 const ImageContainer = styled.div`
@@ -221,7 +230,7 @@ function ProductCard({ product }) {
           <ProductName>{product.name}</ProductName>
           <ProductSize>Tamanho: {product.size}</ProductSize>
           <ProductColor>Cor: {product.color}</ProductColor>
-          <ProductPrice>Preço: De R$ {product.price}</ProductPrice>
+         <ProductPrice>Preço:  <strike>R$  {product.price}</strike> </ProductPrice>
           <ProductPriceDesc>Por R$ {product.priceDesc}</ProductPriceDesc>
           <BuyButton onClick={handleBuy}>Comprar</BuyButton>
         </ContainerContent>
