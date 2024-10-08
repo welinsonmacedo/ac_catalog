@@ -165,12 +165,12 @@ const Modal = styled.div`
 
 const ModalContent = styled.div`
   position: relative;
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 100%;
+  max-height: 100%;
 `;
 
 const ModalImage = styled.img`
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
