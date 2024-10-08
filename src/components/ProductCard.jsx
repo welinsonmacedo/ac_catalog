@@ -204,7 +204,7 @@ function ProductCard({ product }) {
   };
 
   const handleBuy = () => {
-    const message = `Olá! Gostaria de comprar o vestido: 
+    const message = `Olá! Gostaria de comprar: 
     \nNome: ${product.name} 
     \nPreço: R$ ${product.priceDesc} 
     \nCor: ${product.color} 
