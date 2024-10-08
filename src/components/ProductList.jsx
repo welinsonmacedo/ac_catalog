@@ -45,7 +45,7 @@ const products = [
     color: 'Rose  ',
     images: [
       'Vestidos/nataly.png',
-      'Vestidos/nataly.png',
+      'Vestidos/nataly2.jpg',
     ]
   },
   {
@@ -81,7 +81,7 @@ const products = [
     color: 'Preta ',
     images: [
       'Vestidos/Sophia.jpg',
-      'Vestidos/Sophia.jpg',
+      'Vestidos/Sophia2.jpg',
     ]
   },
   {
@@ -229,6 +229,7 @@ const products = [
     color: 'lilás',
     images: [
       'Vestidos/ariel.png',
+      'Vestidos/ariel2.jpg',
     
     ]
   },
