@@ -97,8 +97,8 @@ const ImageContainer = styled.div`
 `;
 
 const ProductImage = styled.img`
-  max-width: 400px;
-  min-width: 400px;
+  max-width: 370px;
+  min-width:370px;
   object-fit: cover;
   height: auto;
   border-radius: 8px;
@@ -142,7 +142,7 @@ const NavButton = styled.button`
 const BuyButton = styled(NavButton)`
   background-color: #99c9a7;
   margin: 0;
-width: 30%;
+width: 50%;
   &:hover {
     background-color: #0056b3;
   }
