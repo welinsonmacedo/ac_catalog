@@ -414,6 +414,7 @@ const products = [
     images: [
       'Blusas/nataliav.png',
       'Blusas/nataliav2.png',
+     
     
     ]
   },
@@ -427,8 +428,9 @@ const products = [
     images: [
    
    
-      'Blusas/nataliaa2.png',
+
       'Blusas/nataliaa3.png', 
+      'Blusas/nataliaa2.png',
     
     ]
   },
@@ -454,8 +456,9 @@ const products = [
     size: '38',
     color: 'verde água bordada',
     images: [
-      'Blusas/nataliavb.png',
+     
       'Blusas/nataliavb2.png',
+      'Blusas/nataliavb.png',
      
     
     ]
@@ -469,7 +472,7 @@ const products = [
     color: 'Laranja',
     images: [
       'Calças/zara.png',
-      'Blusas/zara.png',
+    
      
     
     ]

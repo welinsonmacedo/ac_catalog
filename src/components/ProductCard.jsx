@@ -151,26 +151,26 @@ width: 50%;
 // Estilos para o modal
 const Modal = styled.div`
   display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
-
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.7);
-  z-index: 1000; /* Certificando que o modal fica acima de outros elementos */
+  position: fixed; /* Fixa o modal na tela */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Faz o modal cobrir toda a largura da tela */
+  height: 100vh; /* Faz o modal cobrir toda a altura da tela */
+  z-index: 1000; /* Garante que o modal fique acima de outros elementos */
 `;
+
 
 const ModalContent = styled.div`
   position: relative;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 50%;
+  max-height: 50%;
 `;
 
 const ModalImage = styled.img`
-  width: 60%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;

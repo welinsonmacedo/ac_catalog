@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import ProductList from './components/ProductList';
 import Title from './components/Tittle';
 import'./global.css'
+import Footer from './components/Footer';
 const Container = styled.div`
 padding:5px;
 
@@ -16,6 +17,7 @@ function App() {
     <Container className="App">
       <Title/>
       <ProductList />
+      <Footer/>
     </Container>
   );
 }
