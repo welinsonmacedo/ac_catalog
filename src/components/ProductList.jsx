@@ -380,31 +380,7 @@ const products = [
    
     ]
   },
-  {
-    id: 1,
-    name: 'Blusa Zoe',
-    price: '214,99 ',
-    priceDesc:' 128,99',
-    size: '38,40',
-    color: 'roxa',
-    images: [
-      'Blusas/zoe.png',
-      'Blusas/zoe2.png',
-      'Blusas/zoe3.png',
-    ]
-  },
-  {
-    id: 1,
-    name: 'Blusa Zoe',
-    price: '214,99 ',
-    priceDesc:' 128,99',
-    size: '38,40',
-    color: 'preto',
-    images: [
-      'Blusas/zoep.png',
-    
-    ]
-  },
+  
   {
     id: 1,
     name: 'Blusa Nathalia ',
@@ -475,6 +451,31 @@ const products = [
       'Calças/zara.png',
     
      
+    
+    ]
+  },
+  {
+    id: 1,
+    name: 'Blusa Zoe',
+    price: '214,99 ',
+    priceDesc:' 128,99',
+    size: '38,40',
+    color: 'roxa',
+    images: [
+      'Blusas/zoe.png',
+      'Blusas/zoe2.png',
+      'Blusas/zoe3.png',
+    ]
+  },
+  {
+    id: 1,
+    name: 'Blusa Zoe',
+    price: '214,99 ',
+    priceDesc:' 128,99',
+    size: '38,40',
+    color: 'preto',
+    images: [
+      'Blusas/zoep.png',
     
     ]
   },
