@@ -170,7 +170,7 @@ const ModalContent = styled.div`
 `;
 
 const ModalImage = styled.img`
-  width: 80%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
