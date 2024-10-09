@@ -187,8 +187,8 @@ const products = [
     size: '42 ,44',
     color: 'verde água  ',
     images: [
-      'Vestidos/orfeliav.png',
-      'Vestidos/orfeliav2.png',
+      'Vestidos/orfeliaV.png',
+      'Vestidos/orfeliaV2.png',
     
       
       
