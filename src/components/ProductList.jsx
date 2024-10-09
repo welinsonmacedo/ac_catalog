@@ -181,6 +181,22 @@ const products = [
   },
   {
     id: 1,
+    name: 'Vestido Ofélia',
+    price: '3.499,98',
+    priceDesc:' 2.099,99',
+    size: '42 ,44',
+    color: 'verde água  ',
+    images: [
+      'Vestidos/orfeliav.png',
+      'Vestidos/orfeliav2.png',
+    
+      
+      
+     
+    ]
+  },
+  {
+    id: 1,
     name: 'Vestido Julia ',
     price: '9.499,99 ',
     priceDesc:' 5.969,99',
@@ -189,7 +205,7 @@ const products = [
     images: [
       'Vestidos/julia3.png',
       'Vestidos/julia2.png',
-      'Vestidos/julia.png',
+     
      
      
     ]
@@ -228,7 +244,7 @@ const products = [
     size: '42',
     color: 'lilás',
     images: [
-      'Vestidos/ariel.png',
+      'Vestidos/ariel.jpg',
       'Vestidos/ariel2.jpg',
     
     ]
