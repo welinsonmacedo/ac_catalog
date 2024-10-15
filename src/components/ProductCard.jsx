@@ -39,12 +39,12 @@ const ContainerContent = styled.div`
 const ProductName = styled.h2`
   font-size: 1.5em;
   text-transform: uppercase;
-  color: #000000;
+  color: #230420;
 `;
 const ProductSubTitle = styled.h2`
   font-size: 1.1em;
   text-transform: uppercase;
-  color: #000000;
+  color: #013037;
 `;
 
 const ProductPrice = styled.p`
@@ -52,6 +52,7 @@ const ProductPrice = styled.p`
   font-weight: 700;
   text-transform: uppercase;
   color: #ff0606;
+
   
 `;
 
@@ -162,7 +163,9 @@ const NavButton = styled.button`
 `;
 
 const BuyButton = styled(NavButton)`
-  background-color: #99c9a7;
+  background-color: #6FF048;
+  color:#53384F;
+  font-weight:800;
   margin: 0;
 width: 50%;
   &:hover {
