@@ -14,6 +14,8 @@ const Card = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     align-items:center;
+    padding: 5px;
+
 
   }
 `;
@@ -30,12 +32,17 @@ const ContainerContent = styled.div`
   @media (max-width: 768px) {
     align-items: flex-start;
     justify-content:flex-start; 
-    padding-left: 40px;
+    padding-left: 10px;
   }
 `;
 
 const ProductName = styled.h2`
   font-size: 1.5em;
+  text-transform: uppercase;
+  color: #000000;
+`;
+const ProductSubTitle = styled.h2`
+  font-size: 1.1em;
   text-transform: uppercase;
   color: #000000;
 `;
@@ -56,16 +63,31 @@ const ProductPriceDesc = styled.p`
 `;
 
 const ProductSize = styled.p`
+padding-left:1em;
   font-size: 1em;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   color: #070404;
+`;
+const ProductDescription= styled.p`
+padding-left:1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #070404;
+`;const ProductComposition= styled.p`
+padding-left:1em;
+font-size: 1em;
+text-transform: uppercase;
+font-weight: 400;
+color: #070404;
 `;
 
 const ProductColor = styled.p`
+padding-left:1em;
   font-size: 1em;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   color: #000000;
 `;
 
@@ -231,9 +253,14 @@ function ProductCard({ product }) {
         </ImageContainer>
         <ContainerContent>
           <ProductName>{product.name}</ProductName>
-          <ProductSize>Tamanho: {product.size}</ProductSize>
-          <ProductColor>Cor: {product.color}</ProductColor>
-          
+          <ProductSubTitle>Tamanho:</ProductSubTitle>
+          <ProductSize> {product.size}</ProductSize>
+          <ProductSubTitle>Cor:</ProductSubTitle>
+          <ProductColor> {product.color}</ProductColor>
+          <ProductSubTitle>Descrição:</ProductSubTitle>
+          <ProductDescription> {product.description}</ProductDescription>
+          <ProductSubTitle>Composição:</ProductSubTitle>
+          <ProductComposition>{product.composition}</ProductComposition>
          <ProductPrice> <strike>R$  {product.price}</strike> </ProductPrice>
           <ProductPriceDesc>R$ {product.priceDesc}</ProductPriceDesc>
           <BuyButton onClick={handleBuy}>Comprar</BuyButton>
