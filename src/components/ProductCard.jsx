@@ -262,8 +262,7 @@ function ProductCard({ product }) {
           <ProductColor> {product.color}</ProductColor>
           <ProductSubTitle>Descrição:</ProductSubTitle>
           <ProductDescription> {product.description}</ProductDescription>
-          <ProductSubTitle>Composição:</ProductSubTitle>
-          <ProductComposition>{product.composition}</ProductComposition>
+        
          <ProductPrice> <strike>R$  {product.price}</strike> </ProductPrice>
           <ProductPriceDesc>R$ {product.priceDesc}</ProductPriceDesc>
           <BuyButton onClick={handleBuy}>Comprar</BuyButton>
