@@ -480,7 +480,7 @@ const products = [
     composition:'crepe',
     price: '724,99',
     priceDesc:'  269,99',
-    size: '38',
+    size: '38,40',
     color: 'azul claro',
     images: [
    
@@ -547,7 +547,7 @@ const products = [
     composition:'jersey',
     price: '214,99 ',
     priceDesc:'  109,99',
-    size: ' 36, 38 ,40',
+    size: '38 , 40 ,44',
     color: 'roxa',
     images: [
       'Blusas/zoe.png',
@@ -562,7 +562,7 @@ const products = [
     composition:'jersey',
     price: '214,99 ',
     priceDesc:'  109,99',
-    size: ' 36, 38 ,40',
+    size: ' 38 , 40 ,44',
     color: 'preto',
     images: [
       'Blusas/zoep.png',
