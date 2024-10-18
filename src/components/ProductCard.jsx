@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import styled from 'styled-components';
 
 // Definindo os componentes estilizados
@@ -195,7 +195,9 @@ const ModalContent = styled.div`
 `;
 
 const ModalImage = styled.img`
-  width: 100%;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
@@ -235,17 +237,32 @@ function ProductCard({ product }) {
     \nCor: ${product.color} 
     \nTamanho: ${product.size}`;
 
-    // Substitua '5511998765432' pelo seu número de WhatsApp
     const yourWhatsAppNumber = '5534996717951';
     const whatsappUrl = `https://api.whatsapp.com/send?phone=${yourWhatsAppNumber}&text=${encodeURIComponent(message)}`;
 
     window.open(whatsappUrl, '_blank');
-};
+  };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      // Oculta o scroll do body
+      document.body.style.overflow = 'hidden';
+    } else {
+      // Restaura o scroll do body
+      document.body.style.overflow = 'unset';
+    }
+
+    // Limpeza do efeito colateral
+    return () => {
+      document.body.style.overflow = 'unset';
+    };
+  }, [isModalOpen]);
 
   return (
     <>
       <Card>
         <ImageContainer>
+          
           <ProductImage
             src={product.images[currentImageIndex]}
             alt={`${product.name} - ${currentImageIndex + 1}`}
@@ -257,13 +274,12 @@ function ProductCard({ product }) {
         <ContainerContent>
           <ProductName>{product.name}</ProductName>
           <ProductSubTitle>Tamanho:</ProductSubTitle>
-          <ProductSize> {product.size}</ProductSize>
+          <ProductSize>{product.size}</ProductSize>
           <ProductSubTitle>Cor:</ProductSubTitle>
-          <ProductColor> {product.color}</ProductColor>
+          <ProductColor>{product.color}</ProductColor>
           <ProductSubTitle>Descrição:</ProductSubTitle>
-          <ProductDescription> {product.description}</ProductDescription>
-        
-         <ProductPrice> <strike>R$  {product.price}</strike> </ProductPrice>
+          <ProductDescription>{product.description}</ProductDescription>
+          <ProductPrice><strike>R$ {product.price}</strike></ProductPrice>
           <ProductPriceDesc>R$ {product.priceDesc}</ProductPriceDesc>
           <BuyButton onClick={handleBuy}>Comprar</BuyButton>
         </ContainerContent>

@@ -22,7 +22,7 @@ const products = [
     price: '9.949,99',
     priceDesc:' 4.774,99',
     size: '38',
-    color: 'cinza',
+    color: 'prata',
     images: [
       'Vestidos/barbara.jpg',
       'Vestidos/barbara2.jpg'
@@ -50,7 +50,7 @@ const products = [
     price: '11.999,99',
     priceDesc:' 5.399,99',
     size: '38',
-    color: 'Rose  ',
+    color: 'dourada ',
     images: [
       'Vestidos/nataly.png',
       'Vestidos/nataly2.jpg',
@@ -192,7 +192,7 @@ const products = [
   {
     id: 1,
     name: 'Vestido Ofélia',
-    description:' vestido em crepe, saia tripla, fenda, manga única com lenço, drapeado e fechamento em zíper nas costas Este vestido de manga única com lenço, confeccionado em crepe, é a perfeita combinação de elegância e modernidade. O design assimétrico valoriza a silhueta, enquanto o lenço adiciona um toque de estilo e sofisticação. O tecido leve e fluido proporciona conforto, tornando-o ideal para festas ou eventos especiais. Uma escolha irresistível para quem busca se destacar com charme!',
+    description:'vestido em crepe, saia tripla, fenda, manga única com lenço, drapeado e fechamento em zíper nas costas ',
     composition:'crepe',
     price: '3.499,98',
     priceDesc:' 1.784,99',
@@ -210,11 +210,11 @@ const products = [
   {
     id: 1,
     name: 'Vestido Ofélia',
-    description:' vestido em crepe, saia tripla, fenda, manga única com lenço, drapeado e fechamento em zíper nas costas  vestido de manga única com lenço, confeccionado em crepe, é a perfeita combinação de elegância e modernidade. O design assimétrico valoriza a silhueta, enquanto o lenço adiciona um toque de estilo e sofisticação. O tecido leve e fluido proporciona conforto, tornando-o ideal para festas ou eventos especiais. Uma escolha irresistível para quem busca se destacar com charme!',
+    description:'vestido em crepe, saia tripla, fenda, manga única com lenço, drapeado e fechamento em zíper nas costas ',
     composition:'crepe',
     price: '3.499,98',
     priceDesc:' 1.784,99',
-    size: '42 ,44',
+    size: '44',
     color: 'verde água  ',
     images: [
       'Vestidos/orfeliaV.png',
@@ -228,12 +228,12 @@ const products = [
   {
     id: 1,
     name: 'Vestido Julia ',
-    description:' vestido em tule bordado, com forro, bojo, decote nas costas, fenda e fechamento em zíper nas costas vestido de alça bordado é uma peça deslumbrante e cheia de charme. Com detalhes bordados que adicionam um toque de sofisticação, ele é ideal para ocasiões especiais. As alças delicadas conferem um visual leve e feminino, enquanto o caimento fluido proporciona conforto e elegância. Perfeito para festas, jantares ou passeios, esse vestido é uma escolha irresistível para quem deseja brilhar!',
+    description:' vestido em tule bordado, com forro, bojo, decote nas costas, fenda e fechamento em zíper nas costas',
     composition:'bordado',
     price: '9.499,99 ',
     priceDesc:' 4.774,99',
     size: '38 ',
-    color: 'Vinho ',
+    color: 'vermelho',
     images: [
       'Vestidos/julia3.png',
       'Vestidos/julia2.png',
@@ -279,8 +279,8 @@ const products = [
     composition:'crepe',
     price: '3499,99',
     priceDesc:' 1.784,99 ',
-    size: '42',
-    color: 'lilás',
+    size: '42,40',
+    color: 'lilás,verde água, verde abacate',
     images: [
       'Vestidos/ariel.jpg',
       'Vestidos/ariel2.jpg',
@@ -335,7 +335,7 @@ const products = [
   {
     id: 1,
     name: 'Conjuto Alice',
-    description:' Conjunto Alice: conjunto um linho, blusa em decote quadrado, manga princesa com babado, pregas  e fechamento em zíper nas costas. Calça com bolso frontal, desenho de bolso nas laterais e fechamento em zíper ',
+    description:' conjunto um linho, blusa em decote quadrado, manga princesa com babado, pregas  e fechamento em zíper nas costas. Calça com bolso frontal, desenho de bolso nas laterais e fechamento em zíper ',
     composition:'linho',
     price: '824,99',
     priceDesc:' 439,99',
@@ -351,7 +351,7 @@ const products = [
   {
     id: 1,
     name: 'Conjuto Alice',
-    description:'conjunto um linho, blusa em decote quadrado, manga princesa com babado, pregas  e fechamento em zíper nas costas. Calça com bolso frontal, detalhe em amarração e fechamento em zíper',
+    description:'conjunto em linho, blusa em decote quadrado, manga princesa com babado, pregas  e fechamento em zíper nas costas. Calça com bolso frontal, detalhe em amarração e fechamento em zíper',
     composition:'linho',
     price: '824,99',
     priceDesc:' 439,99',
@@ -367,12 +367,12 @@ const products = [
   {
     id: 1,
     name: 'Conjuto Alice',
-    description:'conjunto um linho, blusa em decote em V, manga princesa, e fechamento em zíper nas costas. Calça com bolso frontal e fechamento em zíper',
+    description:'conjunto em linho, blusa em decote em V, manga princesa, e fechamento em zíper nas costas. Calça com bolso frontal e fechamento em zíper',
     composition:'linho',
     price: '824,99',
     priceDesc:' 439,99',
     size: '44',
-    color: 'Rose',
+    color: 'rosa seco',
     images: [
       'Conjunto/alicerose.png',
       'Conjunto/alicerose2.png',
@@ -382,7 +382,7 @@ const products = [
   {
     id: 1,
     name: 'Conjuto Alice',
-    description:'conjunto um linho, blusa em decote em V e fechamento em zíper nas costas. Calça com bolso frontal e fechamento em zíper',
+    description:'conjunto em linho, blusa em decote em V e fechamento em zíper nas costas. Calça com bolso frontal e fechamento em zíper',
     composition:'linho',
     price: '824,99',
     priceDesc:' 439,99',
@@ -431,7 +431,7 @@ const products = [
     description:'camisa em crepe, fechamento em botões e detalhes drapeado na gola e pulsos com fechamento em zíper',
     composition:'crepe ',
     price: '629,99',
-    priceDesc:' 374,99',
+    priceDesc:' 318, 99',
     size: '38',
     color: 'Verde',
     images: [
@@ -446,7 +446,7 @@ const products = [
     description:'camisa em crepe, fechamento em botões e detalhes drapeado na gola e pulsos com fechamento em zíper',
     composition:'crepe ',
     price: '629,99',
-    priceDesc:' 374,99',
+    priceDesc:' 318, 99',
     size: '38',
     color: 'cinza',
     images: [
@@ -463,7 +463,7 @@ const products = [
     description:'blusa em crepe dupla, com detalhe desfiado frontal e nos punhos',
     composition:'crepe',
     price: '724,99',
-    priceDesc:' 289,99',
+    priceDesc:'  269,99',
     size: '38',
     color: 'verde água',
     images: [
@@ -479,7 +479,7 @@ const products = [
     description:'blusa em crepe dupla, com detalhe desfiado frontal e nos punhos',
     composition:'crepe',
     price: '724,99',
-    priceDesc:' 289,99',
+    priceDesc:'  269,99',
     size: '38',
     color: 'azul claro',
     images: [
@@ -546,8 +546,8 @@ const products = [
     description:'blusa em Jersey, decote V e manga princesa',
     composition:'jersey',
     price: '214,99 ',
-    priceDesc:' 128,99',
-    size: '38,40',
+    priceDesc:'  109,99',
+    size: ' 36, 38 ,40',
     color: 'roxa',
     images: [
       'Blusas/zoe.png',
@@ -561,8 +561,8 @@ const products = [
     description:'blusa em Jersey, decote V e manga princesa',
     composition:'jersey',
     price: '214,99 ',
-    priceDesc:' 128,99',
-    size: '38,40',
+    priceDesc:'  109,99',
+    size: ' 36, 38 ,40',
     color: 'preto',
     images: [
       'Blusas/zoep.png',
