@@ -147,7 +147,7 @@ const products = [
     composition:'crepe',
     price: '3.499,99',
     priceDesc:' 1.679,99',
-    size: '38',
+    size: '40',
     color: 'verde abacate ',
     images: [
       'Vestidos/lidia.png',
